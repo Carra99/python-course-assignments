@@ -8,7 +8,7 @@ if len(sys.argv)<2:
   sys.exit(1)
 
 try: 
-  radius = float(system.argv[1])
+  radius = float(sys.argv[1])
 except ValueError: 
   print("Please provide a valid number for the radius")
   sys.exit(1)
