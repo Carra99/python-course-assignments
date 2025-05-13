@@ -13,7 +13,7 @@ while True:
         print("You exited the game. Goodbye!")
         break
     elif user_input.lower() == "s":
-        print(f"You entered cheat mode, the hidden number is: {numb}")
+        print(f"[CHEAT MODE] the hidden number is: {numb}")
         continue
      
     guess = int(user_input)    
