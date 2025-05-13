@@ -7,7 +7,7 @@ print("Type 'x' to exit the game.")
 print("------------------------------------")
 
 while True:
-    user_input = input("Guess a whole number between 1 and 20 (or press 'x' to exit): ")
+    user_input = input("Guess a whole number between 1 and 20 (or press 'x'): ")
     
     if user_input.lower() == "x":
         print("You exited the game. Goodbye!")
