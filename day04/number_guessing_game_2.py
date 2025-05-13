@@ -3,8 +3,8 @@ import random as rand
 numb = rand.randint(1, 20)
 print("------------------------------------")
 print("Welcome to the number guessing game!")
-print("Type 'x' to exit the game.")
 print("------------------------------------")
+print("[FUNCTION KEYS] Press 'x' to exit the game.")
 
 while True:
     user_input = input("Guess a whole number between 1 and 20 (or press 'x'): ")
