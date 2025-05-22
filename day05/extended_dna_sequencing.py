@@ -2,7 +2,7 @@ sequence = input("Please enter a DNA sequence: ").upper()
 valid_chars = {"A", "C", "G", "T"}
 
 if all(c not in valid_chars for c in sequence):
-    print("No valid DNA characters found. Accepted characters: A, C, G, T")
+    print("No valid DNA characters found.")
     exit()
 
 fragments = []
